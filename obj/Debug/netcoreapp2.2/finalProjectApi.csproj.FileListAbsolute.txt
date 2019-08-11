@@ -1,0 +1,14 @@
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/bin/Debug/netcoreapp2.2/finalProjectApi.deps.json
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/bin/Debug/netcoreapp2.2/finalProjectApi.runtimeconfig.json
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/bin/Debug/netcoreapp2.2/finalProjectApi.runtimeconfig.dev.json
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/bin/Debug/netcoreapp2.2/finalProjectApi.dll
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/bin/Debug/netcoreapp2.2/finalProjectApi.pdb
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.csprojAssemblyReference.cache
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.csproj.CoreCompileInputs.cache
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.RazorAssemblyInfo.cache
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.RazorAssemblyInfo.cs
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.AssemblyInfoInputs.cache
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.AssemblyInfo.cs
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.RazorTargetAssemblyInfo.cache
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.dll
+/Users/maykoestevez/Desktop/Curso Angular/ProyectoFinal/finalProjectApi/obj/Debug/netcoreapp2.2/finalProjectApi.pdb
