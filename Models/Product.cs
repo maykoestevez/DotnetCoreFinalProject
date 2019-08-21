@@ -10,7 +10,7 @@ namespace finalProjectApi.Models
         [Column("product_id"), Required]
         public int Id { get; set; }
 
-        [Column("description"), Required,MaxLength(300)]
+        [Column("description"), Required, MaxLength(300)]
         public string Description { get; set; }
 
         [Column("cost", TypeName = "decimal(13, 4)"), Required]
@@ -21,5 +21,8 @@ namespace finalProjectApi.Models
 
         [Column("status"), Required]
         public bool Status { get; set; }
+
+        [Column("details"), Required, MaxLength(300)]
+        public string Details { get; set; }
     }
 }

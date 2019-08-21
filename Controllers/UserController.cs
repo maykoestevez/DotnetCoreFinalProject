@@ -25,6 +25,20 @@ namespace finalProjectApi.Controllers
             return await _service.GetAll();
         }
 
+        // GET api/user/username/password
+        [HttpGet("login/{userId}/{password}")]
+        public async Task<User> Login(string userId, string password)
+        {
+            return await _service.Login(userId, password);
+        }
+
+        // GET api/user/isAdmin/userId
+        [HttpGet("isAdmin/{userId}")]
+        public async Task<bool> IsAdmin(int userId)
+        {
+            return await _service.IsAdmin(userId);
+        }
+
         // GET api/user/5
         [HttpGet("{id}")]
         public async Task<User> GetById(int id)
@@ -51,6 +65,19 @@ namespace finalProjectApi.Controllers
         public async Task DeleteById(int id)
         {
             await _service.Delete(id);
+        }
+
+        // GET api/user/isLogged
+        [HttpGet("isLogged")]
+        public bool isLogged()
+        {
+            return Helper.IsLogged;
+        }
+
+        [HttpGet("LogOut")]
+        public void LogOut()
+        {
+            Helper.IsLogged = false;
         }
     }
 }

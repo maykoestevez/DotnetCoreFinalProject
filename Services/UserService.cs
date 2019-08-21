@@ -5,17 +5,18 @@ using finalProjectApi.Models;
 
 namespace finalProjectApi.Services
 {
-  public  class UserService:IUserService
+
+    public class UserService : IUserService
     {
         private readonly IUserRepository _repository;
         public UserService(IUserRepository repository)
         {
-            _repository=repository;
+            _repository = repository;
         }
 
         public async Task Add(User user)
         {
-           await _repository.Add(user);
+            await _repository.Add(user);
         }
 
         public Task Delete(int userId)
@@ -25,12 +26,12 @@ namespace finalProjectApi.Services
 
         public async Task<IEnumerable<User>> GetAll()
         {
-           return await _repository.GetAll();
+            return await _repository.GetAll();
         }
 
         public async Task<User> GetById(int id)
         {
-           return await _repository.GetById(id);
+            return await _repository.GetById(id);
         }
 
         public async Task<bool> IsAdmin(int userId)
@@ -40,12 +41,17 @@ namespace finalProjectApi.Services
 
         public async Task<User> Login(string user, string password)
         {
-            return await _repository.Login(user,password);
+            var userResult= await _repository.Login(user, password);
+            Helper.IsLogged=true;
+            return userResult;
+
         }
 
         public async Task Update(User user)
         {
             await _repository.Update(user);
         }
+
+
     }
 }

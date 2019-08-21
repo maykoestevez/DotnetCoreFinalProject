@@ -40,7 +40,7 @@ namespace finalProjectApi.Controllers
         }
 
         // PUT api/product/5
-        [HttpPut("{id}")]
+        [HttpPut()]
         public async Task Put([FromBody] Product product)
         {
             await _service.Update(product);

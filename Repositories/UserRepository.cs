@@ -16,8 +16,8 @@ namespace finalProjectApi.Repositories
 
         public async Task<bool> IsAdmin(int userId)
         {
-            var user = await _dbcontext.User.Where(x => x.Role).FirstOrDefaultAsync();
-            return user.Role;//True=Admin,False=Normal
+            var user = await _dbcontext.User.Where(x => x.Id==userId).FirstOrDefaultAsync();
+            return user.IsAdmin;//True=Admin,False=Normal
         }
 
         public Task<User> Login(string user, string password)

@@ -15,8 +15,8 @@ namespace finalProjectApi.Models
         public string UserName { get; set; }
         [Column("password"), Required]
         public string Password { get; set; }
-        [Column("role"), Required]
-        public bool Role { get; set; }
+        [Column("is_admin"), Required]
+        public bool IsAdmin { get; set; }
         [Column("status"), Required]
         public bool Status { get; set; }
     }
